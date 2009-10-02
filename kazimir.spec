@@ -13,8 +13,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Kazimir looks at several logs of several different types, try to find
+user defined problematic or pathologic situations in these logs and
+eventually (based on user-defined configuration) does action to signal
+or correct the situation.
 
-%description -l pl.UTF-8
+%description -l hu.UTF-8
+A Kazimir különböző típusú logokat néz, próbálja megtalálni a
+felhasználó által megadott problémás vagy patológikus helyzeteket
+ezekben a naplókban, és a felhasználó által megadott alkalomkor
+jelzést ad vagy javítja a helyzetet.
 
 %package -n vim-syntax-kazimir
 Summary:	Vim syntax: kazimir
