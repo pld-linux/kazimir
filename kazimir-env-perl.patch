@@ -1,0 +1,8 @@
+--- kazimir-1.0-orig/kazimir	2009-10-02 19:03:16.395160986 +0200
++++ kazimir-1.0/kazimir	2009-10-02 19:03:30.971828871 +0200
+@@ -1,4 +1,4 @@
+-#!/bin/env perl 
++#!/usr/bin/perl 
+ #
+ # The Kazimir program
+ #
